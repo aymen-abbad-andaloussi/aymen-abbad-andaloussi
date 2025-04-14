@@ -1,0 +1,20 @@
+.link-menu
+    &:hover
+        color: $warning !important
+
+%after
+    content: '..................................................................................'
+    text-decoration: dashed
+    color: #bdbdbd
+
+.menu-hover
+    &:hover
+        color: $warning !important
+    &::after
+        @extend %after
+
+.images-menu
+    max-width: 80px
+    border-radius: 50% !important
+
+
