@@ -20139,6 +20139,20 @@ header nav {
   border-radius: 50%;
 }
 
+.div-whyUs {
+  padding: 20px 10px 20px 20px;
+  transition: 0.2s ease;
+}
+.div-whyUs:hover {
+  transition: 0.2s ease;
+  color: #fff;
+  background: #FFC107 !important;
+  padding: 0 10px 40px 20px;
+}
+.div-whyUs:hover .numbers {
+  color: #fff !important;
+}
+
 * {
   margin: 0;
   padding: 0;
