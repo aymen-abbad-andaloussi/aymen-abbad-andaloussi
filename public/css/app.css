@@ -20087,6 +20087,7 @@ header {
 }
 header nav {
   z-index: 2;
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .nav-link:hover {
