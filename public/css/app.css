@@ -20163,7 +20163,6 @@ header nav {
 
 .menu-hover::after {
   content: "..................................................................................";
-  text-decoration: dashed;
   color: #bdbdbd;
 }
 
