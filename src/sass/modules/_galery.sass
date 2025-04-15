@@ -1,0 +1,28 @@
+.images-galery
+    display: grid !important
+    grid-template-columns: repeat(4,auto) !important
+    grid-template-rows: repeat(2, auto) !important
+    height: 80vh !important
+    width: 100% !important
+    gap: 3px
+    .image-galery1
+        background-image: url(../../../public/images/gallery/gallery-1.jpg)
+    .image-galery2
+        background-image: url(../../../public/images/gallery/gallery-2.jpg)
+    .image-galery3
+        background-image: url(../../../public/images/gallery/gallery-3.jpg)
+    .image-galery4
+        background-image: url(../../../public/images/gallery/gallery-4.jpg)
+    .image-galery5
+        background-image: url(../../../public/images/gallery/gallery-5.jpg)
+    .image-galery6
+        background-image: url(../../../public/images/gallery/gallery-6.jpg)
+    .image-galery7
+        background-image: url(../../../public/images/gallery/gallery-7.jpg)
+    .image-galery8
+        background-image: url(../../../public/images/gallery/gallery-8.jpg)
+    .image-galery
+        @extend %carousel-bg-image
+        &:hover
+            transition: 1s ease
+            background-size: 130%
