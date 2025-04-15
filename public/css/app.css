@@ -20197,6 +20197,17 @@ header nav {
   width: fit-content;
 }
 
+.book {
+  padding-top: 11vh;
+}
+.book .div-inputs input {
+  width: 13vw !important;
+}
+.book .div-textarea-book {
+  width: 91.5%;
+  height: 13vh;
+}
+
 * {
   margin: 0;
   padding: 0;
