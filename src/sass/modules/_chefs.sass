@@ -1,0 +1,54 @@
+%chefs
+    width: calc( 80vw / 3 )
+    height: 50vh
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    position: relative
+
+%position
+    width: 90%
+    position: absolute
+    bottom: -10%
+    left: 5%
+
+.bg-chefs1
+    @extend %chefs
+    background-image: url(../../../public/images/chefs/chefs-1.jpg)
+    .about-chef1
+        @extend %position
+
+
+.bg-chefs2
+    @extend %chefs
+    background-image: url(../../../public/images/chefs/chefs-2.jpg)
+    .about-chef2
+        @extend %position
+
+.bg-chefs3
+    @extend %chefs
+    background-image: url(../../../public/images/chefs/chefs-3.jpg)
+    .about-chef3
+        @extend %position
+
+#bg-chefs
+    background-image: url(../../../public/images/testimonials-bg.jpg)
+    @extend %carousel-bg-image
+    width: 100%
+    height: 100%
+    .bg-black-chef
+        padding: 5vh 0
+        background: #18140e93
+
+.images-chef
+    width: 5vw
+    height: 10vh
+    background: #8888886c
+    display: flex
+    justify-content: center
+    align-items: center 
+    border-radius: 50%
+    img
+        width: 4vw
+        border-radius: 50%
+        
