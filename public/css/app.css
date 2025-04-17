@@ -20115,15 +20115,15 @@ header nav {
 }
 
 .carousel-bg-image1 {
-  background-image: url(../../../public/images/slide/slide-1.jpg);
+  background-image: url(../images/slide/slide-1.jpg);
 }
 
 .carousel-bg-image2 {
-  background-image: url(../../../public/images/slide/slide-2.jpg);
+  background-image: url(../images/slide/slide-2.jpg);
 }
 
 .carousel-bg-image3 {
-  background-image: url(../../../public/images/slide/slide-3.jpg);
+  background-image: url(../images/slide/slide-3.jpg);
 }
 
 .about-image {
@@ -20163,7 +20163,7 @@ header nav {
 }
 
 .menu-hover::after {
-  content: "..................................................................................";
+  content: "....................................................";
   color: #bdbdbd;
 }
 
@@ -20175,9 +20175,13 @@ header nav {
   border-radius: 50% !important;
 }
 
+.media-menu {
+  padding-left: 5% !important;
+}
+
 #events {
   position: relative;
-  background-image: url(../../../public/images/testimonials-bg.jpg);
+  background-image: url(../images/testimonials-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   z-index: -2;
@@ -20217,28 +20221,28 @@ header nav {
   gap: 3px;
 }
 .images-galery .image-galery1 {
-  background-image: url(../../../public/images/gallery/gallery-1.jpg);
+  background-image: url(../images/gallery/gallery-1.jpg);
 }
 .images-galery .image-galery2 {
-  background-image: url(../../../public/images/gallery/gallery-2.jpg);
+  background-image: url(../images/gallery/gallery-2.jpg);
 }
 .images-galery .image-galery3 {
-  background-image: url(../../../public/images/gallery/gallery-3.jpg);
+  background-image: url(../images/gallery/gallery-3.jpg);
 }
 .images-galery .image-galery4 {
-  background-image: url(../../../public/images/gallery/gallery-4.jpg);
+  background-image: url(../images/gallery/gallery-4.jpg);
 }
 .images-galery .image-galery5 {
-  background-image: url(../../../public/images/gallery/gallery-5.jpg);
+  background-image: url(../images/gallery/gallery-5.jpg);
 }
 .images-galery .image-galery6 {
-  background-image: url(../../../public/images/gallery/gallery-6.jpg);
+  background-image: url(../images/gallery/gallery-6.jpg);
 }
 .images-galery .image-galery7 {
-  background-image: url(../../../public/images/gallery/gallery-7.jpg);
+  background-image: url(../images/gallery/gallery-7.jpg);
 }
 .images-galery .image-galery8 {
-  background-image: url(../../../public/images/gallery/gallery-8.jpg);
+  background-image: url(../images/gallery/gallery-8.jpg);
 }
 .images-galery .image-galery:hover {
   transition: 1s ease;
@@ -20262,16 +20266,16 @@ header nav {
 }
 
 .bg-chefs1 {
-  background-image: url(../../../public/images/chefs/chefs-1.jpg);
+  background-image: url(../images/chefs/chefs-1.jpg);
 }
 .bg-chefs2 {
-  background-image: url(../../../public/images/chefs/chefs-2.jpg);
+  background-image: url(../images/chefs/chefs-2.jpg);
 }
 .bg-chefs3 {
-  background-image: url(../../../public/images/chefs/chefs-3.jpg);
+  background-image: url(../images/chefs/chefs-3.jpg);
 }
 #bg-chefs {
-  background-image: url(../../../public/images/testimonials-bg.jpg);
+  background-image: url(../images/testimonials-bg.jpg);
   width: 100%;
   height: 100%;
 }
